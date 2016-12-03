@@ -4,11 +4,16 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+=======
+         BreakpointExtensionID = "Xcode.Breakpoint.IDETestFailureBreakpoint">
+>>>>>>> try to push
          <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
             filePath = "JYCar/TabbarViewControllers/DeviceViewController.m"
             timestampString = "466432337.404474"
             startingColumnNumber = "9223372036854775807"
@@ -17,6 +22,9 @@
             endingLineNumber = "161"
             landmarkName = "-udpSocket:didReceiveData:fromAddress:withFilterContext:"
             landmarkType = "5">
+=======
+            breakpointStackSelectionBehavior = "1">
+>>>>>>> try to push
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

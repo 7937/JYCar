@@ -76,29 +76,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="p9s-W2-0ab">
+=======
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="chZ-wW-eZq">
+>>>>>>> try to push
                                 <rect key="frame" x="-4" y="64" width="328" height="367"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
                                     <outlet property="dataSource" destination="CSW-LY-tO7" id="6Je-MO-2x5"/>
                                     <outlet property="delegate" destination="CSW-LY-tO7" id="QYW-u6-gdv"/>
+=======
+                                    <outlet property="dataSource" destination="CSW-LY-tO7" id="FSm-Pb-dN4"/>
+                                    <outlet property="delegate" destination="QPW-i6-oJn" id="gCK-Tw-PZ4"/>
+>>>>>>> try to push
                                 </connections>
                             </tableView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
                             <constraint firstItem="p9s-W2-0ab" firstAttribute="top" secondItem="eqk-0a-oCJ" secondAttribute="bottom" id="7Us-Im-2zK"/>
                             <constraint firstItem="8x9-wc-Pe1" firstAttribute="top" secondItem="p9s-W2-0ab" secondAttribute="bottom" id="IHH-69-AOs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="p9s-W2-0ab" secondAttribute="trailing" constant="-20" id="rFl-WY-llM"/>
                             <constraint firstItem="p9s-W2-0ab" firstAttribute="leading" secondItem="QPW-i6-oJn" secondAttribute="leadingMargin" constant="-20" id="rr6-23-SEb"/>
+=======
+                            <constraint firstAttribute="trailingMargin" secondItem="chZ-wW-eZq" secondAttribute="trailing" constant="-20" id="OP0-bI-XgE"/>
+                            <constraint firstItem="chZ-wW-eZq" firstAttribute="top" secondItem="eqk-0a-oCJ" secondAttribute="bottom" id="OTS-9w-roc"/>
+                            <constraint firstItem="chZ-wW-eZq" firstAttribute="leading" secondItem="QPW-i6-oJn" secondAttribute="leadingMargin" constant="-20" id="WSh-LA-5XK"/>
+                            <constraint firstItem="8x9-wc-Pe1" firstAttribute="top" secondItem="chZ-wW-eZq" secondAttribute="bottom" id="uqd-DK-urz"/>
+>>>>>>> try to push
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="联系人" id="GH7-ue-xdl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
                         <outlet property="deviceList" destination="p9s-W2-0ab" id="mSI-QN-RMW"/>
+=======
+                        <outlet property="deviceList" destination="chZ-wW-eZq" id="3RA-Ic-X6N"/>
+                        <outlet property="view" destination="QPW-i6-oJn" id="QQj-9t-e8a"/>
+>>>>>>> try to push
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i3N-WO-pjl" userLabel="First Responder" sceneMemberID="firstResponder"/>

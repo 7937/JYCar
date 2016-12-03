@@ -103,9 +103,15 @@ static NSString *reuseable3=@"menucell";
     NSData *data =[Datastr dataUsingEncoding:NSUTF8StringEncoding];
     
     
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
     [listenSocket sendData:data toHost:@"100.64.132.196" port:40000 withTimeout:-1 tag:1];
     
     if ([listenSocket connectToHost:@"100.64.132.196" onPort:40000 error:&err])
+=======
+    [listenSocket sendData:data toHost:@"192.168.1.104" port:40000 withTimeout:-1 tag:1];
+    
+    if ([listenSocket connectToHost:@"192.168.1.104" onPort:40000 error:&err])
+>>>>>>> try to push
     {
         NSLog(@"Connected!");
     }
@@ -138,6 +144,11 @@ static NSString *reuseable3=@"menucell";
 
     NSLog(@"%@",arr);
         
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
+=======
+    [[NSNotificationCenter defaultCenter]postNotificationName:Notification_allData object:arr];
+        
+>>>>>>> try to push
     if([[arr objectAtIndex:0] isEqualToString:@"V"])
     {
        S1=[[arr objectAtIndex:2] doubleValue];
@@ -162,7 +173,11 @@ static NSString *reuseable3=@"menucell";
         [Datalist addObject:[arr objectAtIndex:3]];
         [self.deviceList scrollRectToVisible:CGRectMake(0, self.deviceList.frame.size.height, self.deviceList.frame.size.width, 0) animated:YES];
         [self.deviceList reloadData];
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
         []
+=======
+        [[NSNotificationCenter defaultCenter]postNotificationName:Notification_AddID object:idList];
+>>>>>>> try to push
     }
     }
 }
@@ -183,8 +198,11 @@ static NSString *reuseable3=@"menucell";
     point.title=other;
     }
     [[NSNotificationCenter defaultCenter]postNotificationName:Notification_AddPoints object:point userInfo:nil];
+<<<<<<< 8fa0dc075a6a855dd0b1d7ca2b7f30a4735b70a9
     
 //    [[NSNotificationCenter defaultCenter]postNotificationName:Notification_AddStr object:local userInfo:nil];
+=======
+>>>>>>> try to push
 }
 
 
